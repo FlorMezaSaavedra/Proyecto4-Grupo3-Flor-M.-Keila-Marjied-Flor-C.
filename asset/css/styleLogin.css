@@ -1,0 +1,265 @@
+
+body{
+  background-color: black;
+}
+.bg-dark{
+background-color: rgb(0, 0, 0);
+}
+ 
+
+/********************/*
+header{
+  margin-top:0;
+  padding:0;
+ height: 67px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(0, 0, 0, 0.685);
+}
+.contenedor{
+  display:flex;
+
+  
+}
+
+.avatar {
+  position:absolute;
+  left:40px;
+  top:4px;
+  width:60px;
+  height:60px;
+  border-radius:50%;
+  z-index:99999;}
+  
+
+  figure {display:inline;
+  }
+
+  .nova {
+      float: left;
+      position: relative;
+      font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      left:16px
+  }
+  
+  .nova a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 20.5px 26px;
+      text-decoration: none;
+      background-color: rgba(245, 206, 238, 0.685);
+      border-color: black;
+      border-width: 20px;
+      font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      
+      
+  }
+  
+  .nova a:hover {
+      background-color:  rgba(241, 161, 227, 0.685);
+  }
+
+
+  #menu{
+      position:absolute;
+      left: 120px;
+      z-index: 3;
+  }
+
+   #menu ul li {
+       background-color:rgba(245, 206, 238, 0.685);
+   }
+   
+   #menu ul {
+     list-style:none;
+     margin:0;
+     padding:0;
+   }
+   
+   #menu ul a {
+     display:block;
+     color:rgb(0, 0, 0);
+     text-decoration:none;
+     font-weight:400;
+     font-size:10px;
+     padding:25px;
+     font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+     text-transform:uppercase;
+     letter-spacing:1px;
+   }
+   
+   #menu ul li {
+     position:relative;
+     float:left;
+     margin:0;
+     padding:0;
+   }
+   
+   #menu ul li:hover {
+     background:rgba(194, 128, 182, 0.685);
+   }
+   
+   #menu ul ul {
+     display:none;
+     position:absolute;
+     top:100%;
+     left:0;
+     padding:0;
+   }
+   
+   #menu ul ul li {
+     float:none;
+     width:150px
+   }
+   
+   #menu ul ul a {
+     line-height:120%;
+     padding:30px 25px;
+   }
+   
+   #menu ul li:hover > ul {
+     display:block;
+   }
+   /*,,,,,,*/
+
+   
+
+   header .yup{
+      display:flex;
+      font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+   
+  .flex{
+      height: 40px;
+      width:500px;
+      background-color: transparent;
+      position: absolute;
+      left:30px;
+      border: none;
+
+    } 
+    /*----*/
+   
+
+
+  /*---*/
+    .contenedor div{
+      width:350px;
+      font-size: 30px;
+      color:transparent; 
+      text-align: center;
+   }
+
+   .het {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: transparent
+      ;
+      width: 85%;
+      height: none;
+      position:absolute;
+      top:0px;
+      bottom:50;
+      left: 200px ;
+      font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      
+      
+  
+  }
+
+  .tot2{
+      display: flex;
+      position: relative;
+      left: 390px;
+      width: 500px;
+      height:30px;
+      border:none;
+      background-color: black;
+      color: white;
+      font-size:small;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .tot2:hover{
+      background-color:#c75cbe ;
+    }
+
+ 
+    .popup{
+      background: rgba(245, 206, 238, 0.685);
+      border: wheat;
+      font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      border-radius: 0.31em;
+      padding: 0.93em 1.87em;
+      color: #fff;
+      margin-right: 1.25em;
+      cursor: pointer;
+      font-size: 9px;
+     height: 30px;
+     position: absolute;
+     left: 920px;
+     top:0px;
+     
+  
+  }
+  .popup2{
+    background: rgba(245, 206, 238, 0.685);
+    border: wheat;
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color: #fff;
+    margin-right: 1.25em;
+    cursor: pointer;
+    font-size: 9px;
+   height: 30px;
+   width: 60px;
+   position: absolute;
+   left: 990px;
+   top:0px;
+  }
+
+#logout{
+  position: relative;
+  left:1000px;
+  bottom:30px ;
+  background: rgba(245, 206, 238, 0.685);
+      border: wheat;
+      font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      border-radius: 0.31em;
+      padding: 0.93em 1.87em;
+      color: #fff;
+      margin-right: 1.25em;
+      cursor: pointer;
+      font-size: 9px;
+     height: 30px;
+     
+}
+/*********/
+.imagen1{
+  width: 150px;
+  height:150px;
+  background-color: none;
+  position: absolute;
+  left: 1100px;
+  top:100px;
+  bottom:300px;
+  background-image: url(file:///C:/Users/UGEL_02/Documents/Unidad%204/url/a.webp);
+  background-repeat: no-repeat;
+  background-size: 150px 150px;
+}
+
+.imagen2{
+  width: 150px;
+  height:150px;
+  background-color: none;
+  position: absolute;
+  left: 100px;
+  top:100px;
+  bottom:300px;
+  background-image: url(file:///C:/Users/UGEL_02/Documents/Unidad%204/url/b.webp);
+  background-repeat: no-repeat;
+  background-size: 150px 150px;
+}
+

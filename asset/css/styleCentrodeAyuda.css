@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+
+.navbar-brand{
+    font: italic bold 30px Georgia, Serif;
+    text-shadow: -3px 2px 0 #db90c5, -3px 3px 0 #0a0e27;
+}
+
+#contenedorResgistrarse {
+    /*background-color: rgb(156, 238, 204);*/
+    padding-left: 30px; /*Aumentar esto para que se valla más a la izquierda*/
+    padding-right: 30px;
+    font-family:monospace;
+    
+  }
+
+#contenedorNumero {
+    margin: 30px;
+    color: cornsilk;
+    font: italic bold 50px Georgia, Serif;
+    text-shadow: -4px 3px 0 #db90c5, -4px 6px 0 #0a0e27;
+  }
+  
+  img{
+    display: block;
+    margin: auto;
+    max-width: 20%;
+  
+  }
+ 
+
+  
+  tr {
+    display: flex;
+  }
+
+  #contenedorResgistrarse p {
+    font-size: 20px;
+    line-height: 30px; /*Aumenta separación entre líneas*/
+    text-align: justify;
+    font-family:monospace;
+    color:rgb(255, 255, 255);
+    padding-left: 30px;
+  }

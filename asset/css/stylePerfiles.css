@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+}
+
+.header{
+    text-align: center;
+    height: 300px;
+    padding: 12px;
+    background-color:blueviolet;
+}
+
+.avatar{
+   width: 200px;
+   height: 200px;
+   border-radius: 50px; 
+}
+
+.user-name{
+    font-size: 18px;
+    margin-top: 14px;
+
+}
+
+.socials{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.socials li{
+    display: inline-block;
+    margin: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #ececec;
+}
+
+a:hover{
+    color: #e0e0e0;
+}
+
+.icons{
+width: 16px;
+height: 16px;
+display: inline-block;
+background-size: cover;
+}
+
+.email{
+    background-image: url("https://toppng.com/uploads/preview/download-icono-de-gmail-fondo-transparente-11563267500np377bcfym.png"
+    );
+}
+
+.facebook{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/124/124010.png");
+}
+
+.twitter{
+    background-image: url("https://w7.pngwing.com/pngs/872/50/png-transparent-computer-icons-social-media-logo-twitter-social-media-blue-logo-social-media-thumbnail.png");
+}
+
+.about{
+    padding: 10px;
+}
+
+.about h3{
+    color:#c7b5b5;
+    font-size: 16px;
+}
+
+.about p{
+    color:#ffffff;
+    font-size: 14px;
+}
+
