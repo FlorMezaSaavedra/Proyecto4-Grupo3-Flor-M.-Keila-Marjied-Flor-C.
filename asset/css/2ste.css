@@ -341,7 +341,7 @@ body{
       display:block;
     }
 .Imagen2{
-    background-image: url(file:///C:/Users/UGEL_02/Downloads/c.webp);
+    background-image: url(img/c.png);
     background-size: 400px 400px;
     background-repeat: no-repeat;
     height: 400px;
@@ -356,15 +356,15 @@ body{
 }
 
 .Imagen3{
-   background-image: url(file:///C:/Users/UGEL_02/Documents/Unidad%204/proyectoUnidad4/img/url/Omarop.webp);
-    background-size: 800px 400px;
+   background-image: url(/);
+    background-size: 600px 400px;
     background-repeat: no-repeat;
     height: 400px;
-    width: 600px;
+    width: 300px;
     border-color: white;
     background-color:tomato;
     position: absolute;
-    left: 700px;
+    left: 600px;
     bottom:0px;
     top:1000px;
 
