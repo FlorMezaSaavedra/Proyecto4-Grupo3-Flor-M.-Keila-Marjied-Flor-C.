@@ -26,6 +26,34 @@ header{
 
     figure {display:inline;
     }
+    /*--------------Nova 2--------------------*/
+    .nova2 {
+      float: left;
+      position: relative;
+      font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      left:15px;
+      top:0px;
+      height: 62px;
+      z-index: 3;
+  }
+  
+  .nova2 a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 22px 25px;
+      text-decoration: none;
+      background-color: rgba(245, 206, 238, 0.685);
+      border-color: black;
+      border-width: 20px;
+      
+      
+  }
+  
+  .nova2 a:hover {
+      background-color:  rgba(241, 161, 227, 0.685);
+  }
+    /*.------------------------------------------.*/
 
     .nova {
         float: left;
