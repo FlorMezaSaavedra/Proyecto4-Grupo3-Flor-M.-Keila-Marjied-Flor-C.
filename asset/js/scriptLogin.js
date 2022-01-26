@@ -1,15 +1,17 @@
 $(document).ready(function () {
   // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  
   const firebaseConfig = {
-    apiKey: "AIzaSyBUb1DD2a3W4dDxhM2uIBVesHb4wqksQSk",
-    authDomain: "fir-demo-5ad62.firebaseapp.com",
-    projectId: "fir-demo-5ad62",
-    storageBucket: "fir-demo-5ad62.appspot.com",
-    messagingSenderId: "327286699446",
-    appId: "1:327286699446:web:6a3cadeadc391df6e23d17",
-    measurementId: "G-0E0YDR4TQ1"
+    apiKey: "AIzaSyA_McrnS4_rqgJVdxN2fzk-0_-iXv87wwQ",
+    authDomain: "unidad4-f0b93.firebaseapp.com",
+    projectId: "unidad4-f0b93",
+    storageBucket: "unidad4-f0b93.appspot.com",
+    messagingSenderId: "165541269015",
+    appId: "1:165541269015:web:0250f2cdb899d7979d9652",
+    measurementId: "G-ZB17Y4CXKT"
   };
+  
 
   // Initialize Firebase
   const app = firebase.initializeApp(firebaseConfig);
@@ -243,5 +245,4 @@ function deletePost(id){
     console.error("Error removing document: ",error);
   });
 }
-
 
